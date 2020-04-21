@@ -80,11 +80,67 @@ const dict = {
     'Username': "ユーザー名",
     'Verify Contact': "確認",
     'Verify': "確認する"
+   },
+   'zh-CN': {
+    'User already exists': "用户已登录",
+    'User does not exist.': "用户名或密码不正确",
+    'User is not confirmed.': "这个用户未确认",
+    'Incorrect username or password.': "用户名或密码不正确",
+    'Attempt limit exceeded, please try after some time.': "尝试次数超过限制，请稍后再试",
+    'Password did not conform with policy: Password not long enough': "密码过短，请重新输入",
+    'Invalid verification code provided, please try again.': "验证码错误，请重试",
+    'Invalid session for the user, session is expired.': "会话已过期",
+    'Password attempts exceeded': "输入密码次数超过限制",
+    'Account recovery requires verified contact information': "恢复账户需要确认联系方式",
+    'Cannot reset password for the user as there is no registered/verified email or phone_number': "用户未注册或没有验证电子邮件/手机号，不能重置密码",
+    'Back to Sign In': "返回到登录画面",
+    'Change Password': "更改密码",
+    'Change': "修改",
+    'Code': "确认码",
+    'Code cannot be empty': "请输入验证码",
+    'Confirmation Code': "确认验证码",
+    'Confirm a Code': "确认验证码",
+    'Confirm Sign In': "确认登录",
+    'Confirm Sign Up': "确认注册",
+    'Confirm': "确认",
+    'Create account': "新建账户",
+    'Email': "电子邮件",
+    'Enter your username': "请输入用户名",
+    'Enter your password': "请输入密码",
+    'Forgot Password': "忘记密码",
+    'Forget your password? ': "忘记了密码？",
+    'Have an account? ': "已有账号？",
+    'Loading...': "登录中...",
+    'Lost your code? ': "未收到验证码？",
+    'New Password': "新密码",
+    'No account? ': "没有账号？",
+    'No MFA': "没有MFA",
+    'Password': "密码",
+    'Password cannot be empty': "请输入密码",
+    'Phone Number': "电话号码",
+    'Pick a File': "选择文件",
+    'Resend a Code': "重新发送验证码",
+    'Resend Code': "重新发送验证码",
+    'Reset password': "重置密码",
+    'Reset your password': "重置密码",
+    'Send Code': "发送验证码",
+    'Select MFA Type': "选择MFA类型",
+    'Select your preferred MFA Type': "选择MFA类型",
+    'Sign In Account': "登录账户",
+    'Sign In': "登录",
+    'Sign Out': "退出",
+    'Sign Up Account': "注册账号",
+    'Sign Up': "注册",
+    'Skip': "跳过",
+    'Submit': "保存",
+    'Username': "用户名",
+    'Verify Contact': "验证链接",
+    'Verify': "验证"
    }
 };
 
 Vue.prototype.$Amplify.I18n.putVocabularies(dict);
-Vue.prototype.$Amplify.I18n.setLanguage('ja');
+Vue.prototype.$Amplify.I18n.setLanguage('zh-CN');
 
 /* eslint-disable no-new */
 new Vue({

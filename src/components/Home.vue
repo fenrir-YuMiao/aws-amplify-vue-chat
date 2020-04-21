@@ -1,12 +1,12 @@
 <template>
   <div class="container shifted">
     <h1 class="h1">
-      AWS Amplify Vue チャット・チーム7
+      AWS Amplify Vue聊天组
     </h1>
-    <h2 v-if="user">私は {{user.username}} さんです</h2>
+    <h2 v-if="user">用户名： {{user.username}}</h2>
     <div class="section">
       <input class="input" v-model="message" placeholder="メッセージ">
-      <button type="button" @click="postMessage">送信</button>
+      <button type="button" @click="postMessage">发送信息</button>
       <li v-for="(value, key, index) in items" :key="index">
         {{ value.content }}
       </li>
@@ -150,3 +150,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+  .shifted{
+    margin-right: 30px
+  }
+</style>
