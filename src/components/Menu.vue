@@ -14,11 +14,11 @@
 <template>
   <div class="nav">
     <div class="main">
-      <a class="item" v-on:click="home">ホーム</a>
-      <a class="item" v-on:click="notes">Notes</a>
+      <a class="item" v-on:click="home">聊天室</a>
+      <a class="item" v-on:click="notes">笔记</a>
     </div>
     <div class="right">
-      <a class="item" v-on:click="profile" v-if="user">プロフィール</a>
+      <a class="item" v-on:click="profile" v-if="user">个人资料</a>
       <amplify-sign-out v-if="user"></amplify-sign-out>
     </div>
   </div>
